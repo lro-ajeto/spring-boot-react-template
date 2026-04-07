@@ -17,6 +17,6 @@ public class GreetingController {
     @Operation(summary = "Get greeting", description = "Returns a greeting message with the current timestamp")
     @ApiResponse(responseCode = "200", description = "Greeting returned successfully")
     public Greeting greeting() {
-        return new Greeting("Hello from Spring Boot!", LocalDateTime.now());
+        return new Greeting("Velkommen til denne workshop!", LocalDateTime.now());
     }
 }

@@ -30,13 +30,10 @@ function App() {
   return (
     <main className="app">
       <section className="card">
-        <h1>React + Spring Boot</h1>
+        <h1>Vibe-coding workshop</h1>
         <p>{status.data?.message}</p>
         <p className="card__timestamp">
           Response generated at <strong>{new Date(status.data?.timestamp).toLocaleString()}</strong>
-        </p>
-        <p className="card__hint">
-          Edit <code>frontend/src/App.jsx</code> to update the UI.
         </p>
       </section>
     </main>
