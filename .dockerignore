@@ -1,0 +1,19 @@
+# Maven build outputs
+/target
+
+# Node build outputs
+/frontend/node_modules
+/frontend/dist
+
+# Local environment and tooling files
+.idea
+.vscode
+*.iml
+.DS_Store
+
+# Git metadata
+.git
+.gitignore
+
+# Docker artifacts
+Dockerfile
