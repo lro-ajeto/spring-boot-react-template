@@ -2,6 +2,17 @@
 
 This project demonstrates how to integrate a modern React front end with a Spring Boot back end in a single repository. The Maven build compiles the Java application and, through the `frontend-maven-plugin`, installs Node.js, builds the React application, and packages the resulting static assets into the Spring Boot jar.
 
+## Workshop quick start for Windows
+
+If you want the easiest possible startup flow for beginners:
+
+1. Install Java 21 or newer.
+2. Double-click `Start Workshop App.cmd` in the project root.
+3. Wait for a terminal window to start the app.
+4. The browser opens automatically on <http://localhost:8080> when the app is ready.
+
+If Java is missing, the launcher shows a friendly message instead of failing with a Maven error.
+
 ## Project structure
 
 ```
@@ -22,6 +33,18 @@ This project demonstrates how to integrate a modern React front end with a Sprin
 - Node.js 18+ (optional for local front-end development; Maven will download its own version during the build)
 
 ## Running the application
+
+### Simplest option for workshop participants
+
+Windows:
+
+```powershell
+.\Start Workshop App.cmd
+```
+
+This launcher starts Spring Boot in a separate terminal window, waits for the application to respond on port 8080, and opens the browser automatically.
+
+### Manual developer workflow
 
 1. **Install front-end dependencies** (required only for local front-end development):
 
